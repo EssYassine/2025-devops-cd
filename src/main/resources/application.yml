@@ -3,6 +3,8 @@ spring:
     name: tp-cd-2024
   datasource:
     url: ${DATABASE_JDBC_URL}
+    username: ${DATABASE_USER}
+    password: ${DATABASE_PASSWORD}
   jpa:
     hibernate:
       ddl-auto: create
